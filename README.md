@@ -1,10 +1,7 @@
-# bigboybrew
-Homebrew Formulas for big boys
+# Esolitos' IPA: Missing homebrew formulae.
 
-For sshpass: `brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb`
+This is s simple brew tap to get some missing formulae, note that some might customized for my needs so be sure to take a quick look to the Formulae before installing.
 
-#### Note
-I have an error when installing sshpass with it expecting gsed rather than sed. To resolve:
+## Installation
 
-    cd /usr/local/Library/ENV/4.3
-    ln -s /usr/local/bin/gsed gsed
+To install this tap in your sources just run `brew tap esolitos/ipa`
