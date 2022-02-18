@@ -26,7 +26,7 @@ jobs:
             brew tap --repair
       -
         name: Install sshpass
-        run: brew install sshass
+        run: brew install sshpass
       -
         name: Check sshpass installation
         run: which sshpass
