@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      -
+        uses: actions/checkout@v2
+      -
+        name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+      -
+        name: Prepare brew tap
+        run: |
+            mkdir -p $(brew --repo)/Library/Taps/esolitos
+            ln -s $PWD $(brew --repo)/Library/Taps/esolitos/ipa
+            brew tap --repair
+      -
+        name: Install sshpass
+        run: brew install sshass
+      -
+        name: Check sshpass installation
+        run: which sshpass
