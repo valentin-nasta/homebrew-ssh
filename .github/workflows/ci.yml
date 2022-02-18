@@ -19,12 +19,6 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
       -
-        name: Prepare brew tap
-        run: |
-            mkdir -p $(brew --repo)/Library/Taps/esolitos
-            ln -s $PWD $(brew --repo)/Library/Taps/esolitos/ipa
-            brew tap --repair
-      -
         name: Install sshpass
         run: brew install sshpass
       -
