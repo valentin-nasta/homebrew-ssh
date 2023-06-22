@@ -1,4 +1,4 @@
-# sshpass homebrew formulae.
+# sshpass homebrew formula
 
 This hombrew formulae install sshpass (see https://sourceforge.net/projects/sshpass/).
 
