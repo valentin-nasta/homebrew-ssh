@@ -6,4 +6,4 @@ This is s simple brew tap to get some missing formulae, note that some might cus
 
 ## Installation
 
-To install this tap in your sources just run `brew tap esolitos/ipa`
+To install this tap in your sources just run `brew tap mroosz/ipa`
