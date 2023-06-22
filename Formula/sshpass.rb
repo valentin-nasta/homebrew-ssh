@@ -1,8 +1,8 @@
 class Sshpass < Formula
   desc "Non-interactive ssh password auth Files"
   homepage "https://sourceforge.net/projects/sshpass/"
-  url "https://downloads.sourceforge.net/project/sshpass/sshpass/1.10/sshpass-1.10.tar.gz"
-  sha256 "ad1106c203cbb56185ca3bad8c6ccafca3b4064696194da879f81c8d7bdfeeda"
+  url "https://github.com/MichaelRoosz/sshpass/releases/download/untagged-4dcce9b039be5a951df1/sshpass-1.10-mr.tar.gz"
+  sha256 "4ce41b3a953af86fad11977ec4656ca4f98b8d1c8d9cd399c7aeb3d1a7c8957d"
   license "GPL-2.0-or-later"
 
   def install
