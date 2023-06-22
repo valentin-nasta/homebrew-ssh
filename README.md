@@ -6,4 +6,4 @@ It includes a custom fix for sshpass to make it work correctly with the "Control
 
 ## Installation
 
-To install sshpass just run `brew install michaelroosz/sshpass`
+To install sshpass just run `brew install michaelroosz/ssh/sshpass`
