@@ -1,9 +1,9 @@
-# Esolitos' IPA: Missing homebrew formulae.
+# sshpass homebrew formulae.
 
-[![CI](https://github.com/esolitos/homebrew-ipa/actions/workflows/ci.yml/badge.svg)](https://github.com/esolitos/homebrew-ipa/actions/workflows/ci.yml)
+This hombrew formulae install sshpass (see https://sourceforge.net/projects/sshpass/).
 
-This is s simple brew tap to get some missing formulae, note that some might customized for my needs so be sure to take a quick look to the Formulae before installing.
+It includes a custom fix for sshpass to make it work correctly with the "ControlPersist" ssh feature.
 
 ## Installation
 
-To install this tap in your sources just run `brew tap mroosz/ipa`
+To install sshpass just run `brew install michaelroosz/sshpass`
