@@ -1,4 +1,4 @@
-class Sshtunnelmanager < Formula
+class SshTunnelNanager < Formula
   desc "SSH tunnel management tool impkemented with xbar"
   homepage "https://github.com/MichaelRoosz/ssh-tunnel-manager"
   url "https://github.com/MichaelRoosz/ssh-tunnel-manager/archive/refs/tags/v1.0.1.tar.gz"
