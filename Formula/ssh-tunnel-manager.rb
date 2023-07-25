@@ -1,8 +1,8 @@
 class SshTunnelManager < Formula
   desc "SSH tunnel management tool impkemented with xbar"
   homepage "https://github.com/MichaelRoosz/ssh-tunnel-manager"
-  url "https://github.com/MichaelRoosz/ssh-tunnel-manager/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "92c2d489f957c9c5147f37133e1f8091b7924347cb4c005019ca9f7390b496ec"
+  url "https://github.com/MichaelRoosz/ssh-tunnel-manager/archive/refs/tags/v1.0.4.tar.gz"
+  sha256 "37b6f0757deaad89192ee0ba54e7f6c6aff86ac4100270076fda1876f7fe5577"
   license "GPL-2.0-or-later"
 
   depends_on "jq"
